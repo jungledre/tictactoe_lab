@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded',function(){
     var gridArray = document.querySelectorAll('.cell')
     var grid = document.querySelector('.cell')
     var occupied = document.querySelectorAll('.occupied')
+    var turn = document.querySelector('#turn')
     var count = 0
     var button = document.querySelector('#button')
     var gridLength = gridArray.length
@@ -14,6 +15,7 @@ document.addEventListener('DOMContentLoaded',function(){
             gridArray[j].innerText = "";
             gridArray[j].classList.remove('occupied')
             gridArray[j].style.color = "black"
+            turn.innerText = "X"
         }
         i = 0
         count = 0
@@ -26,6 +28,7 @@ document.addEventListener('DOMContentLoaded',function(){
                 this.innerText = (count%2 == 1) ? "X":"O";
                 this.classList.add('occupied')
                 this.style.color = (count%2 == 1) ? "#FFAA01":"#FF5500";
+                turn.innerText = (count%2 == 1) ? "O":"X"
             }
         });
     }
