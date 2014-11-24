@@ -1,45 +1,48 @@
 h1{
-    font-size: 16em;
+    font-size: 14em;
+}
+
+h2{
+    font-size: 3em;
 }
 
 .cell {
-    height: 1em;
-    font-size: 12em;
-    vertical-align: center;
+    height: 1.5em;
+    font-size: 10em;
 }
 
 #cell1 {
-    border-right: .1em solid black;
-    border-bottom: .1em solid black;
+    border-right: .1em solid #333333;
+    border-bottom: .1em solid #333333;
 }
 
 #cell2 {
-    border-right: .1em solid black;
-    border-bottom: .1em solid black;
+    border-right: .1em solid #333333;
+    border-bottom: .1em solid #333333;
 }
 
 #cell3 {
-    border-bottom: .1em solid black;
+    border-bottom: .1em solid #333333;
 }
 
 #cell4 {
-    border-right: .1em solid black;
-    border-bottom: .1em solid black;
+    border-right: .1em solid #333333;
+    border-bottom: .1em solid #333333;
 }
 
 #cell5 {
-    border-right: .1em solid black;
-    border-bottom: .1em solid black;
+    border-right: .1em solid #333333;
+    border-bottom: .1em solid #333333;
 }
 
 #cell6 {
-    border-bottom: .1em solid black;
+    border-bottom: .1em solid #333333;
 }
 
 #cell7 {
-    border-right: .1em solid black;
+    border-right: .1em solid #333333;
 }
 
 #cell8 {
-    border-right: .1em solid black;
+    border-right: .1em solid #333333;
 }
