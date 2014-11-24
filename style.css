@@ -1,3 +1,45 @@
-body {
-    font-size: 10em;
+h1{
+    font-size: 16em;
+}
+
+.cell {
+    height: 1em;
+    font-size: 12em;
+    vertical-align: center;
+}
+
+#cell1 {
+    border-right: .1em solid black;
+    border-bottom: .1em solid black;
+}
+
+#cell2 {
+    border-right: .1em solid black;
+    border-bottom: .1em solid black;
+}
+
+#cell3 {
+    border-bottom: .1em solid black;
+}
+
+#cell4 {
+    border-right: .1em solid black;
+    border-bottom: .1em solid black;
+}
+
+#cell5 {
+    border-right: .1em solid black;
+    border-bottom: .1em solid black;
+}
+
+#cell6 {
+    border-bottom: .1em solid black;
+}
+
+#cell7 {
+    border-right: .1em solid black;
+}
+
+#cell8 {
+    border-right: .1em solid black;
 }

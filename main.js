@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded',function(){
     var reset = function() {
         for (var j=0; j < gridArray.length; j++) {
             console.log(j)
-            gridArray[j].innerText = "?";
+            gridArray[j].innerText = "";
             gridArray[j].classList.remove('occupied')
             gridArray[j].style.color = "black"
         }
@@ -23,10 +23,9 @@ document.addEventListener('DOMContentLoaded',function(){
         gridArray[i].addEventListener('click',function(){
             if (this.classList.contains('occupied') === false) {
                 count ++
-                this.innerText = (count%2 == 1) ? "M":"O";
+                this.innerText = (count%2 == 1) ? "X":"O";
                 this.classList.add('occupied')
-                console.log("hi")
-                this.style.color = (count%2 == 1) ? "navy":"fuchsia";
+                this.style.color = (count%2 == 1) ? "#FFAA01":"#FF5500";
             }
         });
     }
